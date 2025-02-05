@@ -45,7 +45,7 @@ const commands = [
       {
         name: "author",
         description: "The ID of the user who said the quote",
-        type: ApplicationCommandOptionType.String,
+        type: ApplicationCommandOptionType.User,
         required: true,
       },
     ],
