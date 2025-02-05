@@ -154,7 +154,6 @@ client.on("interactionCreate", async (interaction) => {
               files: [img],
               content: "<@" + quoteAuthorUser.id + ">",
             });
-            await interaction.deleteReply();
 
             q.deleteFile(img);
           } catch (e) {
